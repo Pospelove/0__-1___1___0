@@ -4,6 +4,8 @@ Running the program:
 node cli.js input.csv > output.csv
 ```
 
+No need to compile. I've added `cli.js` to Git.
+
 ## Implementation Notes
 
 + Use NodeJS streams to transform data incrementally, with hope to be able to process files larger than our RAM
